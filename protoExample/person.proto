@@ -1,0 +1,8 @@
+syntax = "proto3";
+
+option go_package = "/person";
+
+message Person {
+    int32 id = 2;
+    string name = 1;
+}
